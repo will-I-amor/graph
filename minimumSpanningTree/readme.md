@@ -10,9 +10,6 @@
     
 sorted的第三部分的意思是：以student_tuples的第2位，即'A','B'来sort。然后排出一个结果。那个s:s可以换成任何名字。
 
-
-
-    
     parent是list，parent = [0,1,2,3]
 
     [0,1,2,2]  ->  [2,1,2,2]可以在kruskal那个function里print出parent和rank的值。
