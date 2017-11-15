@@ -13,9 +13,9 @@ sorted的第三部分的意思是：以student_tuples的第2位，即'A','B'来s
 
 
     
-    parent是list，parent = [0,1,2,3]
+    parent是list，parent = [0,1,2,3]
 
-[0,1,2,2]  ->  [2,1,2,2]可以在kruskal那个function里print出parent和rank的值。
-graph的值print时需要加self.graph
-rank一开始是[0,0,0,0]后来变成[0,0,1,0]
-graph = [[2, 3, 4], [0, 3, 5], [0, 2, 6], [0, 1, 10], [1, 3, 15]]
+    [0,1,2,2]  ->  [2,1,2,2]可以在kruskal那个function里print出parent和rank的值。
+    graph的值print时需要加self.graph
+    rank一开始是[0,0,0,0]后来变成[0,0,1,0]
+    graph = [[2, 3, 4], [0, 3, 5], [0, 2, 6], [0, 1, 10], [1, 3, 15]]
